@@ -1,0 +1,16 @@
+# You can put custom rules here
+# Window/layer rules: https://wiki.hyprland.org/Configuring/Window-Rules/
+# Workspace rules: https://wiki.hyprland.org/Configuring/Workspace-Rules/
+
+# ######## Window rules ########
+
+# Uncomment to apply global transparency to all windows:
+#windowrulev2 = opacity 0.89 override 0.89 override, class:.*
+
+# makes every window have transparency
+# windowrulev2 = opacity 0.94 override 0.95, class:.* #lower cuz 89 is too high
+
+windowrulev2 = opacity 0.94 override 0.95, class:(kitty|alacritty|foot
+
+# Disable blur for all xwayland apps
+# windowrulev2 = noblur, xwayland:1
